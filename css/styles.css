@@ -1,0 +1,64 @@
+:root {
+   --primary-text-color: #757575;
+   --secondary-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-bg-color:#F5F5F5;
+   --text-color-1:#FFFFFF;
+   --text-color-2:#000000;
+   --background-color1:#2F303A;
+}
+/* main */
+body {
+   background-color: var(--primary-bg-color);
+   color: var(--primary-text-color);
+}
+.benefits-title, .section-title, .team-name {
+   color: var(--secondary-text-color);
+}
+
+/* header */
+header {
+   background-color: var(--text-color-1);
+}
+.link-active {
+   color: var(--secondary-text-color);
+}
+.link-active:hover {
+   color: var(--accent-color);
+}
+.link {
+   color: var(--secondary-text-color);
+}
+.mail:hover {
+   color: var(--accent-color);
+}
+/* Герой */
+.logo {
+   color: var(--text-color-2);
+}
+.logotipe {
+   color: var(--accent-color);
+}
+.hero {
+   background-color:var(--background-color1) ;
+}
+.button {
+   color: var(--text-color-1);
+   background: var(--accent-color);
+}
+.hero1 {
+   color: var(--text-color-1);
+}
+/* footer */
+.adres {
+   color: var(--text-color-1);
+}
+.footer {
+   background-color: var(--background-color1);
+}
+.logo-footer {
+   color: var(--text-color-1);
+}
+.logotipe-footer {
+   color: var(--accent-color);
+}
