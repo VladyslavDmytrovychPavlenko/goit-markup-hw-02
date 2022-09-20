@@ -147,6 +147,7 @@ body {
    font-family: Raleway, sans-serif;
 }
 .adres {
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
@@ -154,6 +155,7 @@ body {
 }
 .mailto {
    color: var(--text-color-rgba);
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
@@ -161,6 +163,7 @@ body {
 }
 .tel {
    color: var(--text-color-rgba);
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;

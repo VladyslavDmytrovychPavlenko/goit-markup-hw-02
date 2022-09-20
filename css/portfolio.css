@@ -100,6 +100,7 @@ body {
 /* footer */
 .adres {
    color: var(--text-color-1);
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
@@ -123,6 +124,7 @@ body {
 }
 .mailto {
    color: var(--text-color-rgba);
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
@@ -130,7 +132,7 @@ body {
 }
 .tel {
    color: var(--text-color-rgba);
-   text-decoration: none;
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
