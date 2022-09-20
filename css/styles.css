@@ -6,48 +6,127 @@
    --text-color-1:#FFFFFF;
    --text-color-2:#000000;
    --background-color1:#2F303A;
+   --text-color-rgba:rgba(255, 255, 255, 0.6);
 }
 /* main */
 body {
    background-color: var(--primary-bg-color);
    color: var(--primary-text-color);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 }
 .benefits-title, .section-title, .team-name {
    color: var(--secondary-text-color);
 }
+.benefits-title {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+.section-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+.text {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+}
+.team-name {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+.team-work {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
 
 /* header */
-header {
+.list{
+   list-style: none;
+}
+.header {
    background-color: var(--text-color-1);
 }
-.link-active {
-   color: var(--secondary-text-color);
+.mail-header {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
-.link-active:hover {
+.mail-header:hover {
    color: var(--accent-color);
+}
+.tel-header {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
 .link {
    color: var(--secondary-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
-.mail:hover {
+.link:hover {
    color: var(--accent-color);
 }
-/* Герой */
+.link:focus {
+   color: var(--accent-color);
+}
 .logo {
    color: var(--text-color-2);
+   font-family: Raleway, sans-serif;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
 }
 .logotipe {
    color: var(--accent-color);
+   font-family: Raleway, sans-serif;
 }
+/* Герой */
 .hero {
    background-color:var(--background-color1) ;
 }
 .button {
+   font-family: inherit;
+}
+.button {
    color: var(--text-color-1);
    background: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.9;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   border: none;
+   padding: 10px 32px 10px 32px;
+   letter-spacing: 0.06em;
+   margin: 0 auto;
+   display: block;
+   text-decoration: none;
 }
 .hero1 {
    color: var(--text-color-1);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 /* footer */
 .adres {
@@ -58,7 +137,32 @@ header {
 }
 .logo-footer {
    color: var(--text-color-1);
+   font-family: Raleway, sans-serif;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
 }
 .logotipe-footer {
    color: var(--accent-color);
+   font-family: Raleway, sans-serif;
+}
+.adres {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+}
+.mailto {
+   color: var(--text-color-rgba);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+}
+.tel {
+   color: var(--text-color-rgba);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
 }

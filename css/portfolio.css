@@ -1,0 +1,138 @@
+:root {
+   --primary-text-color: #757575;
+   --secondary-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-bg-color:#F5F5F5;
+   --text-color-1:#FFFFFF;
+   --text-color-2:#000000;
+   --background-color1:#2F303A;
+   --text-color-rgba:rgba(255, 255, 255, 0.6);
+   --button-background-color:#F5F4FA;
+}
+/* main */
+body {
+   background-color: var(--primary-bg-color);
+   color: var(--primary-text-color);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
+}
+.section-name {
+   color: var(--secondary-text-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+.text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+}
+/* header */
+.list {
+   list-style: none;
+}
+.header1 {
+   background-color: var(--text-color-1);
+}
+.link-header1 {
+   color: var(--secondary-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.link-header1:hover {
+   color: var(--accent-color);
+}
+.link-header1:focus {
+   color: var(--accent-color);
+}
+.contact-tel {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.mail {
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+}
+.mail:hover {
+   color: var(--accent-color);
+}
+.logo-header1 {
+   color: var(--text-color-2);
+   font-family: Raleway, sans-serif;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
+}
+.logotipe-header1 {
+   color: var(--accent-color);
+   font-family: Raleway, sans-serif;
+}
+/* кнопки */
+.button-type {
+   font-family: inherit;
+}
+.button-type {
+   color: var(--secondary-text-color);
+   background-color: var(--button-background-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+   border: none;
+   padding: 6px 25px 6px 25px;
+   text-decoration: none;
+}
+.button-type:hover {
+   color: var(--text-color-1);
+   background-color: var(--accent-color);
+}
+/* footer */
+.adres {
+   color: var(--text-color-1);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+}
+.footer {
+   background-color: var(--background-color1);
+   text-decoration: none;
+}
+.logo-footer {
+   color: var(--text-color-1);
+   font-family: Raleway, sans-serif;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
+}
+.logotipe-footer {
+   color: var(--accent-color);
+   font-family: Raleway, sans-serif;
+   text-decoration: none;
+}
+.mailto {
+   color: var(--text-color-rgba);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+}
+.tel {
+   color: var(--text-color-rgba);
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+}
