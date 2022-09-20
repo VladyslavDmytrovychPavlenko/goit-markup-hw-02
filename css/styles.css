@@ -60,6 +60,7 @@ body {
    background-color: var(--text-color-1);
 }
 .mail-header {
+   color: var(--primary-text-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
@@ -70,11 +71,15 @@ body {
    color: var(--accent-color);
 }
 .tel-header {
+   color: var(--primary-text-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
    text-decoration: none;
+}
+.tel-header:hover {
+   color: var(--accent-color);
 }
 .link {
    color: var(--secondary-text-color);
