@@ -34,7 +34,7 @@ body {
    line-height: 1.17;
    text-align: center;
 }
-.text {
+.text-benefits {
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
@@ -67,7 +67,8 @@ body {
    letter-spacing: 0.02em;
    text-decoration: none;
 }
-.mail-header:hover {
+.mail-header:hover,
+.mail-header:focus {
    color: var(--accent-color);
 }
 .tel-header {
@@ -78,10 +79,11 @@ body {
    letter-spacing: 0.02em;
    text-decoration: none;
 }
-.tel-header:hover {
+.tel-header:hover,
+.tel-header:focus {
    color: var(--accent-color);
 }
-.link {
+.site-nav .link {
    color: var(--secondary-text-color);
    font-weight: 500;
    font-size: 14px;
@@ -89,10 +91,11 @@ body {
    letter-spacing: 0.02em;
    text-decoration: none;
 }
-.link:hover {
+.site-nav .active {
    color: var(--accent-color);
 }
-.link:focus {
+.site-nav .link:hover, 
+.site-nav .link:focus {
    color: var(--accent-color);
 }
 .logo {
@@ -170,6 +173,10 @@ body {
    line-height: 1.71;
    text-decoration: none;
 }
+.mailto:hover,
+.mailto:focus {
+   color: var(--accent-color);
+}
 .tel {
    color: var(--text-color-rgba);
    font-style: normal;
@@ -177,6 +184,14 @@ body {
    font-size: 14px;
    line-height: 1.71;
    text-decoration: none;
+}
+.tel:hover,
+.tel:focus {
+   color: var(--accent-color);
+}
+.adres:hover,
+.adres:focus {
+   color: var(--accent-color);
 }
 
 
@@ -194,7 +209,7 @@ body {
 .text {
    font-weight: 400;
    font-size: 16px;
-   line-height: 30px;
+   line-height: 1.87;
 }
 /* кнопки */
 .button-type {
@@ -209,8 +224,12 @@ body {
    padding: 6px 25px 6px 25px;
    text-decoration: none;
 }
-.button-type:hover {
+.button-type:hover,
+.button-type:focus {
    color: var(--text-color-1);
    background-color: var(--accent-color);
 }
+
+
+
 
