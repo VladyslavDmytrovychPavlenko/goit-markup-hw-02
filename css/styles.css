@@ -157,6 +157,11 @@ body {
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
+   max-width: 696px;
+}
+.team .item {
+   padding-bottom: 30px;
+   background-color: var(--text-color-1);
 }
 /* footer */
 .adres {
