@@ -2,6 +2,7 @@
    --primary-text-color: #757575;
    --secondary-text-color: #212121;
    --accent-color: #2196F3;
+   --accent-color-2:#188CE8;
    --primary-bg-color:#F5F5F5;
    --text-color-1:#FFFFFF;
    --text-color-2:#000000;
@@ -16,6 +17,18 @@ body {
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
 }
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+} 
 .section-team {
    background-color: var(--background-color2);
 }
@@ -38,6 +51,7 @@ body {
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
+   width: 270px;
 }
 .team-name {
    font-weight: 500;
@@ -130,6 +144,10 @@ body {
    margin: 0 auto;
    display: block;
    text-decoration: none;
+   cursor: pointer;
+}
+.button:hover {
+   background-color: var(--accent-color-2);
 }
 .hero1 {
    color: var(--text-color-1);
@@ -219,16 +237,18 @@ body {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.6;
-   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    border-radius: 4px;
    border: none;
    padding: 6px 25px 6px 25px;
    text-decoration: none;
+   font-family: Roboto, sans-serif;
+   background-color: var(--background-color2);
 }
 .button-type:hover,
 .button-type:focus {
    color: var(--text-color-1);
    background-color: var(--accent-color);
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
